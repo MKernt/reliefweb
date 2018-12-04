@@ -112,7 +112,7 @@ rw.query <- function(entity = NULL,
   # if (is.null(to) == TRUE) {}  ## Implement in future versions.
   
   ## Building URL for aquiring data. ##
-  api.url <- "http://api.rwlabs.int/v1/"
+  api.url <- "http://api.reliefweb.int/v1/"
   query.url <- paste(api.url,
                     entity.url,
                     limit.url,

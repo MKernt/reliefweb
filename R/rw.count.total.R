@@ -23,7 +23,7 @@
 rw.count.total <- function(entity = NULL) {
   if (is.null(entity) == TRUE) { stop("Please provide an entity: 'report', 'job', 'training', 'disaster' or 'country'.") }
   
-  count.url <- paste("http://api.rwlabs.int/v1/",
+  count.url <- paste("http://api.reliefweb.int/v1/",
                    entity,
                    "/count",
                    sep = "")
